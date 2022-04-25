@@ -1,0 +1,8 @@
+node_modules
+.vscode
+tmp
+uploads/*
+.DS_Store
+project-byt-firebase*.json
+*.env
+!uploads/import_members_sample.csv

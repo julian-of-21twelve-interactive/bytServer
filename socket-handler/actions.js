@@ -1,0 +1,27 @@
+const TABLES = {
+    ADD: 'TABLE_ADD',
+    UPDATE: 'TABLE_UPDATE',
+    DELETE: 'TABLE_DELETE',
+    GET_ALL: 'TABLE_GET_ALL',
+    GET_BY_RES: 'TABLE_GET_BY_RESTAURANT',
+    GET: 'TABLE_GET',
+    GET_AVAILABLE_TABLE_BY_RES: 'GET_AVAILABLE_TABLE_BY_RES'
+}
+
+Object.freeze(TABLES)
+
+const ORDERS = {
+    ADD: 'ORDER_ADD',
+    UPDATE: 'ORDER_UPDATE',
+    DELETE: 'ORDER_DELETE'
+}
+
+Object.freeze(ORDERS)
+
+const ACTIONS = {
+    TABLES, ORDERS
+}
+
+Object.freeze(ACTIONS)
+
+module.exports = ACTIONS
